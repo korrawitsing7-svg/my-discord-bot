@@ -28,7 +28,7 @@ bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 review_count = 24782 
 
 # ⚠️ ใส่ ID ห้องรีวิวของบีมตรงนี้ (วิธีเอา ID: คลิกขวาที่ชื่อห้องใน Discord -> กด Copy Channel ID)
-REVIEW_CHANNEL_ID = 123456789012345678  
+REVIEW_CHANNEL_ID = 1560115429966483456
 
 @bot.event
 async def on_ready():
